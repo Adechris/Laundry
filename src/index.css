@@ -1,13 +1,100 @@
 body {
+  background: linear-gradient(to right,rgba(75, 40, 230, 0.5), #1398d6); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  padding-bottom: 40px;
+  /* height: 800px; */
+}
+.carousel{
+  margin-top:20px;
+}
+.asmato{
+  font-family:cursive;
+  color:darkblue;
+}
+/* .services{
+  margin-top:20px;
+} */
+
+.nav-item{
+  color: white;
+  transition: all 3s ease;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-item:hover{
+  text-decoration-color:darkblue;
+  /* text-decoration-thickness: 3px;
+  text-decoration-line: underline; */
 }
+
+.myBg{
+  /* background-color:#17034d; */
+  height:700px;
+
+
+}
+.myBg2{
+  background-color:#e4f0f1;
+  /* height:1000px; */
+}
+.myBg4{
+  background-color:#e4f0f1;
+  height:500px;
+}
+.myBg3{
+  background-color:#e4f0f1;
+  /* height:700px; */
+}
+
+#btn2{
+  background-color:darkblue;
+  transition-duration: 0.5s;
+}
+#btn2:hover{
+  background-color: purple;
+}
+#btn1{
+  background-color: purple;
+  color:white
+  
+  /* transition-duration: 0.5s; */
+}
+#btn1:hover{
+  background-color:darkblue;
+  color:white
+
+}
+.myimg{
+  transition-duration: 1s;
+}
+.myimg:hover{
+color:blue;
+}
+.carousel-img{
+width: 100%;
+height:350px;
+
+}
+.contact-img{
+  width: 100%;
+height:350px;
+margin-top: 20px;
+}
+
+/* #btns{
+  animation-name: Mision;
+}
+@keyframes Mision{
+   0%,
+   20%{
+    animation-direction: normal;
+  }
+  50%{
+    animation-direction: alternate-reverse;
+    animation-duration: 2s ;
+  }
+} */
