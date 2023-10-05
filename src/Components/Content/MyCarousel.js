@@ -13,21 +13,22 @@ const MyCarousel = () => {
         {
             id:1,
             image:img1,
-            title:'Responsive Design',
-            subtitle:`Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.`
+            title:'Residential & Commercial Cleaning Services',
+            subtitle:`Quality, affordable and professional cleaning services. That's what we offer to satisfy your needs.`
         },
         {
             id:2,
             image:img2,
-             title:'Creative Design',
-            subtitle:`Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.`
+            title:'Residential & Commercial Cleaning Services',
+            subtitle:`Quality, affordable and professional cleaning services. That's what we offer to satisfy your needs.`
         },
         {
             id:3,
             image:img3,
-            title:'SEO Optimized',
-            subtitle:`Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.`
+            title:'Residential & Commercial Cleaning Services',
+            subtitle:`Quality, affordable and professional cleaning services. That's what we offer to satisfy your needs.`
         },
+       
 
     ]
   return (

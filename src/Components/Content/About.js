@@ -34,18 +34,14 @@ const About = () => {
             Cleaning Services
             </span>
             <br />
-            <h6 style={{ fontFamily:"", lineHeight:'40px' }}>
-              We provide world-class fabric at competitive prices.</h6>
+            <div style={{ fontFamily:"cursive", lineHeight:'18px' }}>
+            <div >
+              We provide world-class fabric at competitive prices.</div>
               <br />
-        
-              <h6>We offer special laundry services to maintain cleanliness and durability of the clothing.</h6>
+              <div>We offer special laundry services to maintain cleanliness and durability of the clothing.</div>
                 <br/>
-                <h6> We provide pickup and delivery service at your home</h6>
-       
-             
-           
-      {/* <button id="btns" className="btn btn-primary" onClick={schedule}>Schedule Free Pick-up & Delivery</button> */}
-
+                <div> We provide pickup and delivery service at your home</div>
+                </div>
           </div>
         </div>
       </Container>
