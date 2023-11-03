@@ -10,15 +10,14 @@ const Contact = () => {
         {id:1,title:'Our Core Values',text:'Our threefold value system of operation is centered on COMMITMENT, QUALITY and INTEGRITY. All services rendered in the organization is being developed around these three value scope of the brand.'}
     ]
   return (
-    <section  className="myBg2">
+    <section  className=" py-5 mt-3">
       <Container>
-       
           <Image className="contact-img"
           src={img}
           />
           <div className="mt-5">
             <h2 style={{color:'darkblue'}}>We give our customers superior, quality, exceptional value and unmatched reliability.</h2>
-            <p>ASMATO LAUNDRY is a cloth care organization that delivers high-classed dry cleaning services
+            <p className='text-white'>ASMATO LAUNDRY is a cloth care organization that delivers high-classed dry cleaning services
                  at much subsidized rates to her customers. We are moved by the desire
                   to make cloth maintenance services affordable and accessible 
                   to all office workers who hardly find the time to sit through to carry out their

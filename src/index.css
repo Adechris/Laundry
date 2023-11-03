@@ -4,51 +4,42 @@ body {
   background-size: cover;
   padding: 0;
   margin: 0;
-  width: 100%;
-  padding-bottom: 60px;
-  /* height: 800px; */
+  height: 100%;
 }
 .carousel{
   margin-top:20px;
+}
+.text-reset{
+  text-decoration:none;
 }
 .asmato{
   font-family:cursive;
   color:darkblue;
 }
-/* .services{
-  margin-top:20px;
-} */
 
 .nav-item{
+  transition: all 2s ease-in-out;
   color: white;
-  transition: all 3s ease;
-  text-decoration: none;
 }
 
 .nav-item:hover{
-  text-decoration-color:darkblue;
-  /* text-decoration-thickness: 3px;
-  text-decoration-line: underline; */
+  color:darkblue; 
 }
 .services{
-  margin-top: 80px;
-}
+  margin-top: 2px;
+} 
+
 .myBg{
   height:700px;
-
-
 }
-.myBg2{
-  background-color:#e4f0f1;
+.price{
+  margin-top: 20px;
 }
 .myBg4{
   background-color:#e4f0f1;
   height:500px;
 }
-.myBg3{
-  background-color:#e4f0f1;
-  /* height:700px; */
-}
+
 
 #btn2{
   background-color:darkblue;

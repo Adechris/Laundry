@@ -3,12 +3,14 @@ import { Container } from 'react-bootstrap'
 
 const Testimonial = () => {
   return (
-    <div style={{marginTop:'100px'}}>
+    <section className='mt-2'>
         <Container>
-<p>Testimonial</p>
-
+          <div className='text-center'>
+      <p>Testimonial</p>
+          </div>
+         
         </Container>
-    </div>
+    </section>
   )
 }
 

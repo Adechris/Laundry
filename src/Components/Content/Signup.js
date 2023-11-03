@@ -10,8 +10,6 @@ const Signup = () => {
   const [myDate, setMyDate] = useState("");
   const [myTime, setMyTime] = useState("");
 
-
-
     const cansave = Boolean(firstName)
      && Boolean(lastName)
       && Boolean(phone) 
